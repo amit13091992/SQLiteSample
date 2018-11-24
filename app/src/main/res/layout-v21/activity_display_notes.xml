@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/idNoteEntryHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/idTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:hint="@string/edt_title"
+            android:inputType="textAutoCorrect"
+            android:textSize="22sp"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/idTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="5"
+            android:gravity="top|left"
+            android:textSize="20sp"
+            android:hint="@string/enter_note_details"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+</RelativeLayout>

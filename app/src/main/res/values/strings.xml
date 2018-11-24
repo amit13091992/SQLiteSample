@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SaveNotes</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="DeleteNote">Are you Sure?</string>
+    <string name="enter_note_details">Enter Note Details:</string>
+    <string name="edt_title">Title:</string>
+</resources>
